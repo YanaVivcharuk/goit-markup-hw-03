@@ -131,6 +131,7 @@ a {
 }
 
 .main-title {
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -139,6 +140,11 @@ a {
 }
 
 .main-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -180,6 +186,7 @@ a {
 }
 
 .team {
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -189,6 +196,8 @@ a {
 }
 
 .list-team {
+  display: flex;
+  gap: 24px;
   background-color: #ffffff;
 }
 
@@ -238,4 +247,25 @@ a {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.first-container {
+  padding: 188px 0;
+}
+
+.second-container {
+  padding: 120px 0;
+}
+
+.item-list {
+  display: flex;
+  gap: 24px;
+}
+
+.item-title {
+  margin-bottom: 8px;
+}
+
+.list-item {
+  width: calc((100% - 72px) / 4);
 }
