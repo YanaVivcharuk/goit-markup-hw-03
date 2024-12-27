@@ -160,6 +160,7 @@ a {
 .paragraph-logo {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
 
 .item-title {
@@ -228,4 +229,13 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.footer-container {
+  padding: 100px 0;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
