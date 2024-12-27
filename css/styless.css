@@ -279,6 +279,7 @@ a {
 }
 
 .item-portfolio {
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -303,6 +304,7 @@ a {
 
 .img {
   display: block;
+  margin: 0 auto;
 }
 
 .app-title {
