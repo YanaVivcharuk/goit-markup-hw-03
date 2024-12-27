@@ -127,6 +127,7 @@ a {
 }
 
 .main-section {
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
@@ -249,11 +250,7 @@ a {
   margin-bottom: 16px;
 }
 
-.first-container {
-  padding: 188px 0;
-}
-
-.second-container {
+.opportunities {
   padding: 120px 0;
 }
 
