@@ -279,6 +279,7 @@ a {
 }
 
 .item-portfolio {
+  display: flex;
   padding: 0;
   flex-wrap: wrap;
   column-gap: 24px;
@@ -297,6 +298,7 @@ a {
 }
 
 .list-class {
+  display: flex;
   gap: 24px;
 }
 
