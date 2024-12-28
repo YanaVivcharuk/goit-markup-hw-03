@@ -290,13 +290,6 @@ a {
   margin: 0;
 }
 
-.section-container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px;
-}
-
 .list-class {
   display: flex;
   gap: 24px;
@@ -328,14 +321,7 @@ img {
 }
 
 .employee-info {
-  width: 232px;
-  height: 56px;
   padding: 32px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 8px;
 }
 
 .app-container {
